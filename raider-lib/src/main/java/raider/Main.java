@@ -23,8 +23,11 @@ public class Main {
 		RaidersLogic.init();
 		PlayerInput.init();
 		
-		//Resources.load("game.litidata");
+		Resources.load("game.litidata");
+		
 		Game.screens().add(new InGameScreen());
+		
+		Game.world().loadEnvironment("level0.tmx"); //chnage to name of envrionment to load.
 		
 		Game.start();
 	}
