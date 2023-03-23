@@ -27,7 +27,7 @@ public class Main {
 		
 		Game.screens().add(new InGameScreen());
 		
-		Game.world().loadEnvironment("level0.tmx"); //chnage to name of envrionment to load.
+		Game.world().loadEnvironment("level0.tmx"); 
 		
 		Game.start();
 	}
