@@ -33,7 +33,7 @@ public class Player extends Creature implements IUpdateable{
 	}
 	
 	private static Player instance;
-	private PlayerState state = PlayerState.LOCKED;//for testing purposes might need to be changed to Controllable once we get litidata in
+	private PlayerState state = PlayerState.CONTROLLABLE;//for testing purposes might need to be changed to Controllable once we get litidata in
 	
 	private Player() {
 		super("raider");
@@ -65,8 +65,8 @@ public class Player extends Creature implements IUpdateable{
 	public void update() {};
 	
 	/**
-	 * 
-	 * @return
+	 * gets the state of the player
+	 * @return the state of the player
 	 */
 	public PlayerState getState() {
 	  return state;
