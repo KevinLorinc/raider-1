@@ -1,5 +1,8 @@
 package raider;
 
+import java.util.Collection;
+import java.util.List;
+
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.entities.Spawnpoint;
 import de.gurkenlabs.litiengine.graphics.Camera;
@@ -24,7 +27,7 @@ public final class RaidersLogic {
 		INVENTORY
 	}
 	
-	private static GameState state = GameState.MENU;//this will be subject to change
+	private static GameState state = GameState.INGAME;//this will be subject to change
 	
 	private RaidersLogic() {};
 	
@@ -36,7 +39,14 @@ public final class RaidersLogic {
 		camera.setClampToMap(true);
 	    Game.world().setCamera(camera);
 	    
+	    
+	    
 	    Game.world().onLoaded(e -> {
+	    	System.out.println(e);
+	    	System.out.println(e.getSpawnpoints());
+	    	System.out.println(Game.world().environment().getNextMapId());
+	    	
+	    	
 	    	
 	    	setState(GameState.INGAME);
 	        Player.instance().getHitPoints().setToMax();
@@ -44,7 +54,9 @@ public final class RaidersLogic {
 	        Player.instance().setCollision(true);
 
 	        // spawn the player instance on the spawn point with the name "enter"
-	        Spawnpoint enter = e.getSpawnpoint("enter");
+	        //Spawnpoint enter =  e.getSpawnpoint("enter");
+	        Spawnpoint enter = new Spawnpoint(1,64,96);
+	        System.out.println(enter);
 	        if (enter != null) {
 	          enter.spawn(Player.instance());
 	        }

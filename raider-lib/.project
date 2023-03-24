@@ -16,14 +16,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>litidata</name>
+			<name>litidatav3</name>
 			<type>2</type>
-			<location>/Users/kevinlorinc/Downloads/litidata copy</location>
+			<location>/Users/kevinlorinc/Downloads/litidatav3</location>
 		</link>
 		<link>
 			<name>maps</name>
 			<type>2</type>
 			<location>/Users/kevinlorinc/Downloads/maps copy</location>
+		</link>
+		<link>
+			<name>sprites</name>
+			<type>2</type>
+			<location>/Users/kevinlorinc/Downloads/sprites copy</location>
 		</link>
 	</linkedResources>
 </projectDescription>
