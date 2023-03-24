@@ -32,7 +32,7 @@ public final class RaidersLogic {
 	 * initializes the logic for the Raiders game
 	 */
 	public static void init() {
-		Camera camera = new PositionLockCamera(Player.instance());//will create player class later
+		Camera camera = new PositionLockCamera(Player.instance());
 		camera.setClampToMap(true);
 	    Game.world().setCamera(camera);
 	    
