@@ -1,6 +1,12 @@
-Thu Mar 23 21:07:46 CDT 2023 main threw an exception:
-java.lang.Error: Unresolved compilation problem: 
-	The method getSpawnpoint(int) in the type Environment is not applicable for the arguments ()
-
-	at raider.RaidersLogic.init(RaidersLogic.java:51)
+Sun Mar 26 00:00:53 CDT 2023 main threw an exception:
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:76)
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:58)
+	at raider.entities.Player.createAnimationController(Player.java:85)
+	at de.gurkenlabs.litiengine.entities.Creature.updateAnimationController(Creature.java:244)
+	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
+	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:75)
+	at raider.entities.Player.<init>(Player.java:53)
+	at raider.entities.Player.instance(Player.java:72)
+	at raider.RaidersLogic.init(RaidersLogic.java:41)
 	at raider.Main.main(Main.java:23)

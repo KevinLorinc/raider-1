@@ -1,46 +1,266 @@
-Mar 23, 2023 7:27:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 7:28:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 7:28:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 7:49:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 7:49:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:28:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:28:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:30:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:30:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:35:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:35:40 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:36:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:36:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:36:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:36:49 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:40:03 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:40:04 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:42:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:42:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:51:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:51:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:53:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "level0" is greater than the supported version 1.2.x. Some features may not work.
-Mar 23, 2023 8:53:10 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.9.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:58 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:40:58 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:10 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:10 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:29 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:41:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:43:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:43:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:43:23 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:43:33 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:43:44 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:44:08 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:44:15 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:44:20 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:44:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 25, 2023 11:55:20 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:76)
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:58)
+	at raider.entities.Player.createAnimationController(Player.java:85)
+	at de.gurkenlabs.litiengine.entities.Creature.updateAnimationController(Creature.java:244)
+	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
+	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:75)
+	at raider.entities.Player.<init>(Player.java:53)
+	at raider.entities.Player.instance(Player.java:72)
+	at raider.RaidersLogic.init(RaidersLogic.java:41)
+	at raider.Main.main(Main.java:23)
+
+Mar 25, 2023 11:55:57 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:00:53 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:76)
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:58)
+	at raider.entities.Player.createAnimationController(Player.java:85)
+	at de.gurkenlabs.litiengine.entities.Creature.updateAnimationController(Creature.java:244)
+	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
+	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:75)
+	at raider.entities.Player.<init>(Player.java:53)
+	at raider.entities.Player.instance(Player.java:72)
+	at raider.RaidersLogic.init(RaidersLogic.java:41)
+	at raider.Main.main(Main.java:23)
+
+Mar 26, 2023 12:04:18 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:04:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:04:34 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:04:34 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:04:48 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:04:49 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:10 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:11 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:28 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:05:29 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:08 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:08 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:23 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:28 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:29 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:34 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:06:34 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:07:05 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:07:06 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:07:12 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 26, 2023 12:07:12 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.

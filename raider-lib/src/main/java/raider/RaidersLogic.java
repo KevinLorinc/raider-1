@@ -1,12 +1,15 @@
 package raider;
 
-import java.util.Collection;
-import java.util.List;
 
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.entities.Spawnpoint;
+import de.gurkenlabs.litiengine.environment.Environment;
+import de.gurkenlabs.litiengine.environment.EnvironmentListener;
 import de.gurkenlabs.litiengine.graphics.Camera;
 import de.gurkenlabs.litiengine.graphics.PositionLockCamera;
+import de.gurkenlabs.litiengine.gui.Appearance;
+import de.gurkenlabs.litiengine.resources.ResourceBundle;
+import de.gurkenlabs.litiengine.resources.Resources;
 import raider.entities.Player;
 
 /**
@@ -14,7 +17,7 @@ import raider.entities.Player;
  * @author Kevin Lorinc
  *
  */
-public final class RaidersLogic {
+public final class RaidersLogic{
 	/**
 	 * creates various constants for the state in a game
 	 * @author Kevin Lorinc
@@ -35,32 +38,37 @@ public final class RaidersLogic {
 	 * initializes the logic for the Raiders game
 	 */
 	public static void init() {
-		Camera camera = new PositionLockCamera(Player.instance());
-		camera.setClampToMap(true);
-	    Game.world().setCamera(camera);
+	    Game.world().addListener(new EnvironmentListener() {
+	    	 @Override
+	         public void initialized(Environment e) {
+	    		 Camera camera = new PositionLockCamera(Player.instance());
+	    		 camera.setClampToMap(true);
+	    		 Game.world().setCamera(camera);
+	    		 
+	    		 Spawnpoint spawn = e.getSpawnpoint("enter");
+	    	     if (spawn != null) {
+	    	       spawn.spawn(Player.instance());
+	    	     }
+	    	 }
+	    });
 	    
-	    
-	    
-	    Game.world().onLoaded(e -> {
-	    	System.out.println(e);
-	    	System.out.println(e.getSpawnpoints());
-	    	System.out.println(Game.world().environment().getNextMapId());
-	    	
-	    	
-	    	
+	    /*Game.world().onLoaded(e -> {	    	
 	    	setState(GameState.INGAME);
 	        Player.instance().getHitPoints().setToMax();
 	        Player.instance().setIndestructible(false);
 	        Player.instance().setCollision(true);
 
 	        // spawn the player instance on the spawn point with the name "enter"
-	        //Spawnpoint enter =  e.getSpawnpoint("enter");
-	        Spawnpoint enter = new Spawnpoint(1,64,96);
-	        System.out.println(enter);
+	        Spawnpoint enter =  e.getSpawnpoint("enter");
 	        if (enter != null) {
 	          enter.spawn(Player.instance());
+	          Player.instance().setVisible(true);
+	          System.out.println(Resources.spritesheets().getAll().size());
+	          System.out.println(Player.instance());
 	        }
-	      });
+	      });*/
+	    
+	    Game.loop().attach(RaidersLogic::update);
 	}
 	
 	/**
@@ -77,6 +85,12 @@ public final class RaidersLogic {
 	 */
 	public static void setState(GameState state) {
 		RaidersLogic.state = state;
+	}
+	
+	private static void update() {
+		if (Game.world().environment() == null) {
+		   return;
+		 }
 	}
 	
 }

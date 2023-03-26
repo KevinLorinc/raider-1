@@ -16,19 +16,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>litidatav3</name>
+			<name>gurkmaps</name>
 			<type>2</type>
-			<location>/Users/kevinlorinc/Downloads/litidatav3</location>
+			<location>/Users/kevinlorinc/Downloads/litiengine-gurk-nukem-master-2/gurkmaps</location>
 		</link>
 		<link>
 			<name>maps</name>
 			<type>2</type>
-			<location>/Users/kevinlorinc/Downloads/maps copy</location>
+			<location>/Users/kevinlorinc/git/raider-1/raider-lib/maps</location>
 		</link>
 		<link>
 			<name>sprites</name>
 			<type>2</type>
-			<location>/Users/kevinlorinc/Downloads/sprites copy</location>
+			<location>/Users/kevinlorinc/git/raider-1/raider-lib/sprites</location>
 		</link>
 	</linkedResources>
 </projectDescription>
