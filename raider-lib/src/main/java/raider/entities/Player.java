@@ -25,7 +25,7 @@ import de.gurkenlabs.litiengine.resources.Resources;
  *
  */
 @EntityInfo(width = 32, height = 32)
-@MovementInfo(velocity = 200)
+@MovementInfo(velocity = 100)
 @CollisionInfo(collisionBoxWidth = 12, collisionBoxHeight = 15, collision = true)
 @CombatInfo(hitpoints = 5, team = 1)
 public class Player extends Creature implements IUpdateable{
@@ -98,8 +98,8 @@ public class Player extends Creature implements IUpdateable{
 		animationController.addRule(x -> (this.getFacingDirection() == Direction.RIGHT) && this.isIdle(), x -> "raider-idle-right");
 		
 		animationController.addRule(x -> (this.getFacingDirection() == Direction.UP) && this.isIdle(), x -> {
-			if(lastFaced == Direction.RIGHT) return "raider-walk-right";
-			else return "raider-walk-left";
+			if(lastFaced == Direction.RIGHT) return "raider-idle-right";
+			else return "raider-idle-left";
 		});
 		
 		animationController.addRule(x -> (this.getFacingDirection() == Direction.UP) && !this.isIdle(), x -> {
@@ -108,8 +108,8 @@ public class Player extends Creature implements IUpdateable{
 		});
 		
 		animationController.addRule(x -> (this.getFacingDirection() == Direction.DOWN) && this.isIdle(), x -> {
-			if(lastFaced == Direction.RIGHT) return "raider-walk-right";
-			else return "raider-walk-left";
+			if(lastFaced == Direction.RIGHT) return "raider-idle-right";
+			else return "raider-idle-left";
 		});
 		
 		animationController.addRule(x -> (this.getFacingDirection() == Direction.DOWN) && !this.isIdle(), x -> {

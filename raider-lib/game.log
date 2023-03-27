@@ -468,3 +468,11 @@ Mar 27, 2023 8:38:30 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap 
 WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
 Mar 27, 2023 8:38:31 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 27, 2023 8:43:25 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 27, 2023 8:43:25 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 27, 2023 8:44:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 27, 2023 8:44:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
