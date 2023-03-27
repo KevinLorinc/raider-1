@@ -16,11 +16,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>gurkmaps</name>
-			<type>2</type>
-			<location>/Users/kevinlorinc/Downloads/litiengine-gurk-nukem-master-2/gurkmaps</location>
-		</link>
-		<link>
 			<name>maps</name>
 			<type>2</type>
 			<location>/Users/kevinlorinc/git/raider-1/raider-lib/maps</location>

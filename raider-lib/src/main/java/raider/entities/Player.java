@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
 
-
+import de.gurkenlabs.litiengine.Direction;
 import de.gurkenlabs.litiengine.IUpdateable;
 import de.gurkenlabs.litiengine.entities.CollisionInfo;
 import de.gurkenlabs.litiengine.entities.CombatInfo;
@@ -13,6 +13,7 @@ import de.gurkenlabs.litiengine.entities.EntityInfo;
 import de.gurkenlabs.litiengine.entities.MovementInfo;
 import de.gurkenlabs.litiengine.graphics.CreatureShadowImageEffect;
 import de.gurkenlabs.litiengine.graphics.IRenderable;
+import de.gurkenlabs.litiengine.graphics.Spritesheet;
 import de.gurkenlabs.litiengine.graphics.animation.Animation;
 import de.gurkenlabs.litiengine.graphics.animation.CreatureAnimationController;
 import de.gurkenlabs.litiengine.graphics.animation.IAnimationController;
@@ -28,10 +29,10 @@ import de.gurkenlabs.litiengine.resources.Resources;
  *
  */
 @EntityInfo(width = 11, height = 20)
-@MovementInfo(velocity = 60)
+@MovementInfo(velocity = 80)
 @CollisionInfo(collisionBoxWidth = 5, collisionBoxHeight = 8, collision = true)
 @CombatInfo(hitpoints = 5, team = 1)
-public class Player extends Creature implements IRenderable, IUpdateable{
+public class Player extends Creature implements IUpdateable{
 	/**
 	 * various constants for the state of a player which will be more deeply dealt with in the UI package.
 	 * @author Kevin Lorinc
@@ -74,25 +75,24 @@ public class Player extends Creature implements IRenderable, IUpdateable{
 		return instance;
 	}
 	
-	//Nothing to be done here yet
-	@Override
-	public void update() {};
-	
 	@Override
 	protected IEntityAnimationController<?> createAnimationController() {
-		IEntityAnimationController<?> controller = new CreatureAnimationController<>(this, false);
-		System.out.println(Resources.spritesheets().getAll());
-	    controller.add(new Animation("raider-idle-right.png", true, true));
-	    controller.add(new Animation("raider-walk-right.png", true, true));
-
-	    controller.addRule(x -> Player.instance().isIdle(), x -> "raider-idle-right.png");
-	    //controller.addRule(x -> GameManager.isHarvesting(), x -> "keeper-celebrate");
-	    //controller.addRule(x -> GameManager.isLevelFailed(), x -> "keeper-pout"); can add rules such as this later
-	
+		Spritesheet idle = Resources.spritesheets().get("raider-idle-right");
+		Spritesheet walk = Resources.spritesheets().get("raider-walk-right");
+		
+		IEntityAnimationController<?> animationController = new CreatureAnimationController<Player>(this,new Animation(idle,false));
+		
+	    animationController.add(new Animation(walk,true));
+	    
+		animationController.addRule(x -> (this.getFacingDirection() == Direction.LEFT) && this.isIdle(), x -> "raider-idle-left");
+		animationController.addRule(x -> (this.getFacingDirection() == Direction.RIGHT) && this.isIdle(), x -> "raider-idle-right");
+		animationController.addRule(x -> (this.getFacingDirection() == Direction.UP) && !this.isIdle(), x -> "raider-walk-right");
+		
 	    CreatureShadowImageEffect effect = new CreatureShadowImageEffect(this, new Color(24, 30, 28, 100));
 	    effect.setOffsetY(1);
-	    controller.add(effect);
-	    return controller;
+	    animationController.add(effect);
+	    
+	    return animationController;
 	}
 	
 	/**
@@ -112,8 +112,6 @@ public class Player extends Creature implements IRenderable, IUpdateable{
 	}
 
 	@Override
-	public void render(Graphics2D g) {
-		// TODO Auto-generated method stub
-		
+	public void update() {
 	}
 }

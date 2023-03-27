@@ -1,12 +1,13 @@
-Sun Mar 26 00:00:53 CDT 2023 main threw an exception:
+Sun Mar 26 21:48:48 CDT 2023 main threw an exception:
 java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
-	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:76)
-	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:58)
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:91)
 	at raider.entities.Player.createAnimationController(Player.java:85)
 	at de.gurkenlabs.litiengine.entities.Creature.updateAnimationController(Creature.java:244)
 	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
 	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:75)
-	at raider.entities.Player.<init>(Player.java:53)
-	at raider.entities.Player.instance(Player.java:72)
-	at raider.RaidersLogic.init(RaidersLogic.java:41)
-	at raider.Main.main(Main.java:23)
+	at raider.entities.Player.<init>(Player.java:54)
+	at raider.entities.Player.instance(Player.java:73)
+	at raider.RaidersLogic.lambda$0(RaidersLogic.java:66)
+	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:383)
+	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:422)
+	at raider.Main.main(Main.java:30)
