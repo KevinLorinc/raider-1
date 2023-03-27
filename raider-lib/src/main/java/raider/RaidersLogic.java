@@ -1,25 +1,9 @@
 package raider;
 
-
-import java.awt.Color;
-import java.awt.event.KeyEvent;
-
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.entities.Spawnpoint;
-import de.gurkenlabs.litiengine.environment.Environment;
-import de.gurkenlabs.litiengine.environment.EnvironmentListener;
 import de.gurkenlabs.litiengine.graphics.Camera;
-import de.gurkenlabs.litiengine.graphics.CreatureShadowImageEffect;
 import de.gurkenlabs.litiengine.graphics.PositionLockCamera;
-import de.gurkenlabs.litiengine.graphics.Spritesheet;
-import de.gurkenlabs.litiengine.graphics.animation.Animation;
-import de.gurkenlabs.litiengine.graphics.animation.CreatureAnimationController;
-import de.gurkenlabs.litiengine.graphics.animation.IEntityAnimationController;
-import de.gurkenlabs.litiengine.gui.Appearance;
-import de.gurkenlabs.litiengine.input.KeyboardEntityController;
-import de.gurkenlabs.litiengine.physics.IMovementController;
-import de.gurkenlabs.litiengine.resources.ResourceBundle;
-import de.gurkenlabs.litiengine.resources.Resources;
 import raider.entities.Player;
 
 /**
@@ -47,21 +31,7 @@ public final class RaidersLogic{
 	/**
 	 * initializes the logic for the Raiders game
 	 */
-	public static void init() {
-	    /*Game.world().addListener(new EnvironmentListener() {
-	    	 @Override
-	         public void initialized(Environment e) {
-	    		 Camera camera = new PositionLockCamera(Player.instance());
-	    		 camera.setClampToMap(true);
-	    		 Game.world().setCamera(camera);
-	    		 
-	    		 Spawnpoint spawn = e.getSpawnpoint("enter");
-	    	     if (spawn != null) {
-	    	       spawn.spawn(Player.instance());
-	    	     }
-	    	 }
-	    });*/
-	    
+	public static void init() {	    
 	    Game.world().onLoaded(e -> {
 	    	Camera camera = new PositionLockCamera(Player.instance());
    		 	camera.setClampToMap(true);
@@ -70,15 +40,11 @@ public final class RaidersLogic{
 	        Player.instance().getHitPoints().setToMax();
 	        Player.instance().setIndestructible(false);
 	        Player.instance().setCollision(true);
-
+	        
 	        // spawn the player instance on the spawn point with the name "enter"
 	        Spawnpoint enter =  e.getSpawnpoint("enter");
 	        if (enter != null) {
 	          enter.spawn(Player.instance());
-	          
-	          System.out.println(Resources.spritesheets().contains("raider-idle-right"));
-	          System.out.println(Player.instance().getLocation());
-	          System.out.println(Player.instance().animations());
 	        }
 	      });
 	}
