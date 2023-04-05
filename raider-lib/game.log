@@ -1,478 +1,621 @@
-Mar 26, 2023 9:42:04 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:42:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:43:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:43:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:48:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:48:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:48:48 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
-SEVERE: Game crashed! :(
-java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
-	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:91)
-	at raider.entities.Player.createAnimationController(Player.java:85)
-	at de.gurkenlabs.litiengine.entities.Creature.updateAnimationController(Creature.java:244)
-	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
-	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:75)
-	at raider.entities.Player.<init>(Player.java:54)
-	at raider.entities.Player.instance(Player.java:73)
-	at raider.RaidersLogic.lambda$0(RaidersLogic.java:66)
-	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:383)
-	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:422)
-	at raider.Main.main(Main.java:30)
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
 
-Mar 26, 2023 9:49:00 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:49:01 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:15 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:50:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:52:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 9:52:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:38:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:38:31 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:40:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:40:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:43:19 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:43:19 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:08 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:14 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:14 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:44:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:45:29 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:45:29 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:45:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:45:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:31 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:46:37 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:47:56 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:47:56 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:59 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:48:59 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:49:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 10:49:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:06:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:06:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:07:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:07:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:07:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:07:31 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:15 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:23 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:14:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:15:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:15:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:15:53 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:15:54 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:23 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:33 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:33 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:44 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:16:45 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:18:13 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:18:13 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:21:50 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:21:51 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:21:56 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:21:57 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:02 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:03 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:07 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:07 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:13 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:22:18 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
-SEVERE: Game crashed! :(
-java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "controller" is null
-	at de.gurkenlabs.litiengine.entities.EntityControllers.addController(EntityControllers.java:57)
-	at de.gurkenlabs.litiengine.entities.EntityControllers.setController(EntityControllers.java:68)
-	at de.gurkenlabs.litiengine.entities.Entity.setController(Entity.java:206)
-	at raider.RaidersLogic.lambda$0(RaidersLogic.java:75)
-	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:383)
-	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:422)
-	at raider.Main.main(Main.java:30)
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
 
-Mar 26, 2023 11:27:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:27:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:27:58 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:27:58 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:49 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:50 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:28:56 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:04 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:05 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:29:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:33:29 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:33:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:33:45 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:33:45 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:47 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:48 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:34:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:35:02 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:35:02 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:15 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:36:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:37:10 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:37:10 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:37:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:37:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:32 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:32 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:44 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:40:45 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:41:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:41:43 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:41:57 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:41:57 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:33 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:34 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 26, 2023 11:42:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:42 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:43 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:51 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:51 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:05:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:06 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:07 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:12 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:13 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:06:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:09:07 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:09:08 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:09:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:09:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:30 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:30 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:36 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:36 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:41 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:42 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:47 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:47 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:52 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:52 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:10:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:04 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:04 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:10 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:11 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:27 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:11:27 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:12:37 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:12:38 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:12:54 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:12:54 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:13:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:13:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:14:40 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:14:41 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:16:16 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:16:17 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:16:53 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:16:53 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:17:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:17:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:17:55 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:17:55 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:18:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:18:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:18:45 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:18:46 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:24:09 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:24:09 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:31:18 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:31:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:33:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:33:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:34:28 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:34:28 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:37:33 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:37:33 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:38:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:38:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:38:30 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:38:31 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:43:25 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:43:25 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:44:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
-Mar 27, 2023 8:44:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:42 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 9:44:43 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:14 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 29, 2023 10:33:14 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:18 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:19 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:19 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 10:33:19 AM de.gurkenlabs.litiengine.UpdateLoop update
+SEVERE: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+java.lang.NullPointerException: Cannot invoke "java.awt.Point.getX()" because "mouseLoc" is null
+	at raider.RaidersMath.getMouseDirection(RaidersMath.java:23)
+	at raider.entities.Player.calcDirection(Player.java:162)
+	at raider.entities.Player.update(Player.java:168)
+	at de.gurkenlabs.litiengine.UpdateLoop.update(UpdateLoop.java:154)
+	at de.gurkenlabs.litiengine.UpdateLoop.process(UpdateLoop.java:138)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:86)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 29, 2023 6:02:53 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 29, 2023 6:02:53 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 29, 2023 6:03:20 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Mar 29, 2023 6:03:20 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Apr 04, 2023 11:07:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.10.0 of map "tutorial" is greater than the supported version 1.2.x. Some features may not work.
+Apr 04, 2023 11:07:53 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.10.0 of map "null" is greater than the supported version 1.2.x. Some features may not work.

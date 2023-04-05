@@ -1,9 +1,13 @@
 package raider.entities;
 
 import java.awt.Color;
+import java.awt.Point;
 import java.awt.event.KeyEvent;
+import java.awt.geom.Point2D;
 
+import abilities.MeleeAttack;
 import de.gurkenlabs.litiengine.Direction;
+import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.IUpdateable;
 import de.gurkenlabs.litiengine.entities.CollisionInfo;
 import de.gurkenlabs.litiengine.entities.CombatInfo;
@@ -18,6 +22,7 @@ import de.gurkenlabs.litiengine.graphics.animation.IEntityAnimationController;
 import de.gurkenlabs.litiengine.input.KeyboardEntityController;
 import de.gurkenlabs.litiengine.physics.IMovementController;
 import de.gurkenlabs.litiengine.resources.Resources;
+import raider.RaidersMath;
 
 /**
  * the class that creates the entity of player
@@ -27,7 +32,7 @@ import de.gurkenlabs.litiengine.resources.Resources;
 @EntityInfo(width = 32, height = 32)
 @MovementInfo(velocity = 100)
 @CollisionInfo(collisionBoxWidth = 12, collisionBoxHeight = 15, collision = true)
-@CombatInfo(hitpoints = 5, team = 1)
+@CombatInfo(hitpoints = 100, team = 1)
 public class Player extends Creature implements IUpdateable{
 	/**
 	 * various constants for the state of a player which will be more deeply dealt with in the UI package.
@@ -44,11 +49,16 @@ public class Player extends Creature implements IUpdateable{
 	private PlayerState state = PlayerState.CONTROLLABLE;//for testing purposes might need to be changed to Controllable once we get litidata in
 	private Direction lastFaced;
 	
+	private MeleeAttack meleeAttack;
+	
 	/**
 	 * creates the instance of the player class and its movement controller
 	 */
 	private Player() {
 		super("raider");
+		
+		
+		meleeAttack = new MeleeAttack(this);
 		
 		lastFaced = Direction.RIGHT;
 		
@@ -57,6 +67,8 @@ public class Player extends Creature implements IUpdateable{
 	    });
 		
 		this.onMoved(e -> {
+			
+			
 			if(this.getFacingDirection() == Direction.RIGHT)
 				lastFaced = Direction.RIGHT;
 			else if(this.getFacingDirection() == Direction.LEFT)
@@ -139,8 +151,20 @@ public class Player extends Creature implements IUpdateable{
 	public void setState(PlayerState state) {
 	  this.state = state;
 	}
+	
+	public MeleeAttack getMeleeAttack() {
+		return meleeAttack;
+	}
+	
+	public Direction calcDirection() {
+		Point mousePosition = Game.window().getRenderComponent().getMousePosition();
+		Point2D playerLoc = Game.world().camera().getViewportLocation(this);
+		return RaidersMath.getMouseDirection(mousePosition, playerLoc);
+		
+	}
 
 	@Override
 	public void update() {
+		//System.out.println(this.calcDirection());
 	}
 }

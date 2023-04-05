@@ -16,7 +16,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		Game.info().setName("Raider");
-		Game.info().setVersion("v1.0.0");
+		Game.info().setVersion("v1.0.1");
 			
 		Game.init(args);
 		
@@ -24,7 +24,7 @@ public class Main {
 		PlayerInput.init();
 		
 		
-		Resources.load("gamev3.litidata");
+		Resources.load("gamev4.litidata");
 		Game.screens().add(new InGameScreen());
 		
 		Game.world().loadEnvironment("tutorial.tmx"); 

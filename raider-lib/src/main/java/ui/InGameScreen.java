@@ -1,7 +1,5 @@
 package ui;
 
-import java.awt.Graphics2D;
-
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.IUpdateable;
 import de.gurkenlabs.litiengine.gui.screens.GameScreen;

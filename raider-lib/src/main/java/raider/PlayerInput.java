@@ -36,6 +36,12 @@ public class PlayerInput {
 	      }
 	  });
 	  
-	  
+	  Input.keyboard().onKeyPressed(KeyEvent.VK_SPACE, e -> {
+		  if (Player.instance().getState() == PlayerState.LOCKED || Player.instance().isDead()) {
+		    return;
+		  }
+		  
+		  Player.instance().getMeleeAttack().cast();
+	  });
   	}
 }

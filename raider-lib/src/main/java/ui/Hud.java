@@ -5,7 +5,7 @@ import java.awt.Graphics2D;
 import java.awt.geom.RoundRectangle2D;
 
 import de.gurkenlabs.litiengine.Game;
-import de.gurkenlabs.litiengine.graphics.RenderEngine;
+import de.gurkenlabs.litiengine.graphics.TextRenderer;
 import de.gurkenlabs.litiengine.gui.GuiComponent;
 import raider.entities.Player;
 import raider.entities.Player.PlayerState;
@@ -71,23 +71,26 @@ public class Hud extends GuiComponent{
 	 * @param g the graphic to render the players hp to
 	 */
 	private void renderHP(Graphics2D g) {
-		if(Player.instance().getState() == PlayerState.INCOMBAT) {
-			RenderEngine renderEngine = new RenderEngine();//may cause problems
+		if(Player.instance().getState() == PlayerState.CONTROLLABLE) {
 			
-			final double width = 64;//16
-	        final double height = 6;//2
-	        double x = 16;//Player.instance().getX() - (width - Player.instance().getWidth()) / 2.0;
-	        double y = 16;//Player.instance().getY() - height * 2;
+			final double width = 100;//16
+	        final double height = 8;//2
+	        double x = Game.world().camera().getViewport().getMinX() + 5;
+	        double y = Game.world().camera().getViewport().getMinY() + 5;
 	        RoundRectangle2D rect = new RoundRectangle2D.Double(x, y, width, height, 1.5, 1.5);
 	        
-	        final double currentWidth = width * (Player.instance().getHitPoints().getRelativeCurrentValue() / (double) Player.instance().getHitPoints().getMax());
+	        final double currentWidth = width * (Player.instance().getHitPoints().get() / (double) Player.instance().getHitPoints().getMax());
 	        RoundRectangle2D actualRect = new RoundRectangle2D.Double(x, y, currentWidth, height, 1.5, 1.5);
 
 	        g.setColor(Color.BLACK);
-	        renderEngine.renderShape(g, rect);
+	        Game.graphics().renderShape(g, rect);
 
 	        g.setColor(new Color(228, 59, 68));
-			renderEngine.renderShape(g, actualRect);
+			Game.graphics().renderShape(g, actualRect);
+			
+			/*g.setColor(Color.WHITE);
+			String health = Player.instance().getHitPoints().get() + " / " + Player.instance().getHitPoints().getMax();
+			TextRenderer.render(g,health,x+120,y+32);*/
 		}
 	}
 }
